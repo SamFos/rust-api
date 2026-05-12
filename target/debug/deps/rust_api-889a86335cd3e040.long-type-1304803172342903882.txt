@@ -1,0 +1,2 @@
+fn(State<Arc<AppState>>, axum::http::Request<Body>, Json<CreateMessage>) -> impl Future<Output = impl IntoResponse> {echo}
+fn(State<Arc<AppState>>, axum::http::Request<Body>, Json<CreateMessage>) -> impl Future<Output = impl IntoResponse> {echo}: Handler<_, _>
