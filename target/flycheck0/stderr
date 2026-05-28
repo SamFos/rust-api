@@ -1,3 +1,0 @@
-warning: unused manifest key: source
-help: source is a valid .cargo/config.toml key
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.10s

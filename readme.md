@@ -1,1 +1,0 @@
-Run this bad boy with `cargo run`

@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxi generate",
+        "serve": "npx --offline serve -l 5173"
+    },
+    "dependencies": {
+        "nuxt": "^4.4.6"
+    }
+}
