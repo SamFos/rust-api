@@ -91,8 +91,8 @@ async fn main() {
         .nest_service("/_nuxt", ServeDir::new("../nuxt/.output/public/_nuxt"))
         .with_state(shared_state);
 
-    let addr = SocketAddr::from(([0, 0, 0, 0], 6666));
-    println!("Server running on http://localhost:6666");
+    let addr = SocketAddr::from(([0, 0, 0, 0], 6969));
+    println!("Server running on http://localhost:6969");
 
     let listener = tokio::net::TcpListener::bind(addr).await.unwrap();
     axum::serve(listener, app).await.unwrap();
