@@ -1,0 +1,14 @@
+{
+	"name": "Rust",
+	"image": "mcr.microsoft.com/devcontainers/rust:2-1-trixie",
+	// "image": "vsc-rust_typescript-127167942dfdd9e1d02ee2383d115ff162d3a1bacd066117963f10d6a15504bb-features",
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {
+			"version": "lts"
+		}
+	},
+	"forwardPorts": [
+		6969,
+		5173
+	]
+}
